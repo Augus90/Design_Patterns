@@ -124,8 +124,10 @@
         var cabalry = new CabalryAttackCommander(new Cabalry());
 
         general.setCommand(infantry);
+        Console.WriteLine($"Infantry attack!!");
         general.attack();
         general.setCommand(cabalry);
+        Console.WriteLine($"Cabalry attack!!");
         general.attack();
     }
 }
