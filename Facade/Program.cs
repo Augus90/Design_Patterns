@@ -95,7 +95,7 @@ internal class Program
 
         public void save()
         {
-            // sabe to database
+            // save to database
             database.save();
         }
     }
